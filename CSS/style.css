@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Roboto:wght@400;700&display=swap');
+
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+    color:       #cacfd2 
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Concert One', cursive;
+}
+
+
+/*================*/
+/*  myTunes */
+/*================*/
+#myTunes {
+    background: url( ../img/night-3084237_1920.jpg) no-repeat top / cover;
+    height: 100vh;
+    color: #CACFD2;
+}
+#myTunes h1 {
+    font-size: 4.6rem;
+}
+#myTunes h4 {
+    font-size: 2.2rem;
+}
+#myTunes p {
+    font-weight: 700;
+    line-height: 1.5;
+   
+}
+.myTunes-margin {
+   padding-top: 9rem;
+}
+
+
+/*================*/
+/*  Music */
+/*================*/
+#Music {
+    background-color:#252529;
+    color: #fff;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+#Music h2 {
+    font-size: 2.8rem;
+    margin-bottom: 1.9rem;
+}
+#Music h3 {
+    font-size: 1.9rem;
+    margin-bottom: 1.5rem;
+}
+#Music p {
+    font-size: 1.3rem;
+    line-height: 1.4;
+}
+#Music .readd {
+    width:1230px;
+}
+
+
+
+/*================*/
+/*  Video */
+/*================*/
+#Video {
+    background-color:#F4F4F4;
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+    color: #000;
+}
+#Video h2 {
+    font-size: 2.5rem;
+    word-spacing: .000001rem;
+    letter-spacing: .0001rem;
+    line-height: 1;
+    margin-bottom: 2rem;
+}
+#Video p {
+    font-size: 1.3rem;
+}
+#Video img {
+    width: 1230px;
+}
+
+
+
+/*================*/
+/*  Overview */
+/*================*/
+#Overview {
+background: #000 url(../img/bg.jpeg) no-repeat bottom / cover;
+padding: 8rem 0 9.5rem 0;
+}
+#Overview h2 {
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+}
+#Overview p {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+
+/*================*/
+/* Gift_Cards */Bottom-Menu
+/*================*/
+#Gift_Cards{
+    background-color:#F4F4F4;
+    color: #000;
+    padding-top: 4rem;
+}
+#Gift_Cards p {
+    font-size: 1rem;
+    margin: 1rem 0 1rem 0;
+}
+#Gift_Cards .readd1 {
+    width: 1.2rem;
+}
+
+/*================*/
+/*Bottom-Menu */
+/*================*/
+#Bottom-Menu {
+    background-color: #252529;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+#Bottom-Menu h3, h2 {
+    font-size: 1rem;
+}
+#Bottom-Menu ul li  {
+    list-style-type: none;
+    font-size: .7rem;
+    margin-left: -2rem;
+}
+hr {
+    width: 9rem;
+}
+
+
+/*================*/
+/* Footer */
+/*================*/
+#Footer {
+    background-color: #333333;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+
+
+
+
+/* Media Quary - Bottom-Menu */
+@media only screen and (max-width: 768px) {
+    #Bottom-Menu h3, h2 {
+        font-size: .9rem;
+    }
+    #Bottom-Menu ul li  {
+        font-size: .6rem;
+    }
+    hr {
+        width: 5rem;
+    }
+}
+@media only screen and (max-width: 442px) {
+    #Bottom-Menu h3, h2 {
+        font-size: .6rem;
+    }
+    #Bottom-Menu ul li  {
+        font-size: .5rem;
+    }
+    hr {
+        width: 4rem;
+    }
+
+
+
+/* Media Quary - Gift_Cards */
+@media only screen and (max-width: 991px) {
+    #Gift_Cards .readd2 {
+        width: 95%;
+    }
+    #Gift_Cards .readd3 {
+        width: 95%;
+        margin-top: 1rem;
+    }
+}
+
+
+
+/* Media Quary -  Overview */
+@media only screen and (max-width: 991px) {
+    #Overview h2 {
+        font-size: 2.2rem;
+    }
+    #Overview p {
+        font-size: 1.3rem;
+    }
+    
+}
+@media only screen and (max-width: 768px) {
+    #Overview h2 {
+        font-size: 1.9rem;
+    }
+    #Overview p {
+        font-size: 1.1rem;
+        padding: 0 10px 0 10px;
+    }
+    
+}
+@media only screen and (max-width: 503px) {
+    #Overview h2 {
+        font-size: 1.5rem;
+    }
+    #Overview p {
+        font-size: .9rem;
+        padding: 0 10px 0 10px;
+    }
+    
+}
+@media only screen and (max-width: 404px) {
+    #Overview h2 {
+        font-size: 1.3rem;
+    }
+    #Overview p {
+        font-size: .8rem;
+        padding: 0 10px 0 10px;
+    }
+    
+}
+
+
+
+/* Media Quary - Video */
+@media only screen and (max-width: 768px) {
+    #Video h2 {
+        font-size: 1.6rem;
+    }
+    #Video p {
+        font-size: 1rem;
+    }
+}
+
+/* Media Quary - Music */
+@media only screen and (max-width: 768px) {
+    #Music p {
+        font-size: 1rem;
+        line-height: 1.4;
+    }
+    #Music h2 {
+        font-size: 2.3rem;
+    }
+    #Music h3 {
+        font-size: 1.7rem;
+    }
+   
+}
+
+
+/* Media Quary -  myTunes */
+@media only screen and (max-width: 768px) {
+    #myTunes h4 {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+   
+}
+@media only screen and (max-width: 560px) {
+    #myTunes h1 {
+        font-size: 2.9rem;
+    }
+    #myTunes h4 {
+        font-size: 1.8rem;
+    }
+    #myTunes p {
+        font-size: 17px;
+    }
+}
+
+
